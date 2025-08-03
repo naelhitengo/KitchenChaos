@@ -30,8 +30,18 @@ public class Player : MonoBehaviour
         // on a separé  le vecteur qui prend en compte l'input, 
         // de celui qui gere le movement.
         // cela servica aussi pour le refacroting.
-        Vector3 movDir = new Vector3(inputVector.x, 0f, inputVector.y);
-        transform.position += movDir * moveSpeed * Time.deltaTime;
+        Vector3 moveDir = new Vector3(inputVector.x, 0f, inputVector.y);
+
+        transform.position += moveDir * moveSpeed * Time.deltaTime;
+
+        // eulerangles plus simple a utiliser que les rotations (qui se basent sur les quaternions)
+        // transform.eulerAngles
+        // transform.rotation
+        // transform.forward = moveDir;
+
+        float rotateSpeed = 10f;
+        transform.forward = Vector3.Slerp(transform.forward, moveDir, Time.deltaTime * rotateSpeed);
+
         Debug.Log(Time.deltaTime);
     }
 }
