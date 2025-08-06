@@ -1,0 +1,13 @@
+06/08/2025
+
+ok j'ai compris ce qui n'allait pas sur le cinemachine.
+j'ia supprimé le module récent (3.1.4) pour installer un v2.10.4, plus proche de celui du tutoriel.
+mais quand ej demandais a la camera de "follow" le joueur, 
+je n'avais pas vu le offset a modifier quelques lignes plus bas dans l'instpecteur.
+
+là c'est mieux.
+
+on va s'arreter a ce chapitre pour ce soir.
+
+prochain cours, input system refactor.
+https://www.youtube.com/watch?v=AmGSEH7QcDg&t=4986s
