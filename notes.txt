@@ -11,3 +11,6 @@ on va s'arreter a ce chapitre pour ce soir.
 
 prochain cours, input system refactor.
 https://www.youtube.com/watch?v=AmGSEH7QcDg&t=4986s
+
+
+j'ai ajouté les wasd et arrow key mais pas le controler car j'en ai pas sous la main.
