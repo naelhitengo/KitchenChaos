@@ -1,15 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private GameInput gameInput;
-
-
-
     private bool isWalking;
+
     private void Update()
     {
         Vector2 inputVector = gameInput.GetMovementVectorNormalized();
@@ -19,15 +18,20 @@ public class Player : MonoBehaviour
         float moveDistance = moveSpeed * Time.deltaTime;
         float playerRadius = .7f;
         float playerHeight = 2f;
-        bool canMove = !Physics.CapsuleCast(transform.position, transform.position + Vector3.up * playerHeight,
-        playerRadius, moveDir, moveDistance);
+        bool canMove = !Physics.CapsuleCast(transform.position,
+                                    transform.position + Vector3.up * playerHeight,
+                                    playerRadius, moveDir, moveDistance);
         Debug.Log($"canMove={canMove}");
         if (canMove)
         {
             transform.position += moveDir * moveDistance;
         }
+        else
+        {
+            Debug.Log(transform.position);
+        }
 
-        transform.position += moveDir * moveSpeed * Time.deltaTime;
+        // transform.position += moveDir * moveSpeed * Time.deltaTime;
 
         isWalking = moveDir != Vector3.zero;
         float rotateSpeed = 10f;
