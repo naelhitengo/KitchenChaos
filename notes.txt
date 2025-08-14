@@ -15,3 +15,8 @@ https://www.youtube.com/watch?v=AmGSEH7QcDg&t=4986s
 
 j'ai ajouté les wasd , arrow key et controler/gamepad  meme si je n'ai pas de manette pour le pc.
 
+20250814
+on a repris , on est a l'etape du clear counter et j'ai un peu de mal a suivre avec le counterlayermask.
+ok c'est just eque l'un des deux comptoirs n'avait pas le tag. 
+j'ai du rater une manip en rafraichissant la valeur dans le prefab, je pensais l'avoir bien fait.
+
