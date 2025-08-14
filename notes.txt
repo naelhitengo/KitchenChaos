@@ -20,3 +20,6 @@ on a repris , on est a l'etape du clear counter et j'ai un peu de mal a suivre a
 ok c'est just eque l'un des deux comptoirs n'avait pas le tag. 
 j'ai du rater une manip en rafraichissant la valeur dans le prefab, je pensais l'avoir bien fait.
 
+quand on aura finit plusieurs tutos, on se posera la question de la suite:
+https://www.gamedev.tv/bundles/lifetime-membership
+
