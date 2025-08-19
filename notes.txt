@@ -23,3 +23,11 @@ j'ai du rater une manip en rafraichissant la valeur dans le prefab, je pensais l
 quand on aura finit plusieurs tutos, on se posera la question de la suite:
 https://www.gamedev.tv/bundles/lifetime-membership
 
+https://www.youtube.com/watch?v=AmGSEH7QcDg&t=8223s
+
+donc mercredi 13, on avait finit le cours Interact Action, C# Events
+on reprends lundi 18
+
+02:38:18 Interact Action, C# Events
+02:47:42 Selected Counter Visual, Singleton Pattern
+03:11:18 Kitchen Object, Scriptable Objects
