@@ -119,6 +119,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &114632004 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -237674895169391404, guid: b438ccdc9daab5541901b016b4e7e7af, type: 3}
+  m_PrefabInstance: {fileID: 1987728614}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b08563a79f62e8c49804fd2cd5667c48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &205091857
 GameObject:
   m_ObjectHideFlags: 0
@@ -927,6 +938,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -237674895169391404, guid: b438ccdc9daab5541901b016b4e7e7af, type: 3}
+      propertyPath: testing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -237674895169391404, guid: b438ccdc9daab5541901b016b4e7e7af, type: 3}
       propertyPath: tomatoPrefab
       value: 
       objectReference: {fileID: 7812660232062589903, guid: 81b3cbbd0e6f39743bdda1dd2cd3ee26, type: 3}
@@ -934,6 +949,10 @@ PrefabInstance:
       propertyPath: kitchenObjectSO
       value: 
       objectReference: {fileID: 11400000, guid: 22c0c8fa5cdfd9b4bb827a2da2478d2b, type: 2}
+    - target: {fileID: -237674895169391404, guid: b438ccdc9daab5541901b016b4e7e7af, type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5071974764523324404, guid: b438ccdc9daab5541901b016b4e7e7af, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.6
@@ -992,6 +1011,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -237674895169391404, guid: b438ccdc9daab5541901b016b4e7e7af, type: 3}
+      propertyPath: testing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -237674895169391404, guid: b438ccdc9daab5541901b016b4e7e7af, type: 3}
       propertyPath: tomatoPrefab
       value: 
       objectReference: {fileID: 7812660232062589903, guid: c70c43ead46c8d247bad094a5429162b, type: 3}
@@ -999,6 +1022,10 @@ PrefabInstance:
       propertyPath: kitchenObjectSO
       value: 
       objectReference: {fileID: 11400000, guid: 6bbc5497c1e440945a4467431c09d025, type: 2}
+    - target: {fileID: -237674895169391404, guid: b438ccdc9daab5541901b016b4e7e7af, type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 114632004}
     - target: {fileID: 5071974764523324404, guid: b438ccdc9daab5541901b016b4e7e7af, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

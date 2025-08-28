@@ -30,8 +30,11 @@ on reprends lundi 18
 
 02:38:18 Interact Action, C# Events  
 02:47:42 Selected Counter Visual, Singleton Pattern     Mardi 19
-03:11:18 Kitchen Object, Scriptable Objects             dimanche 24
-03:24:46 Kitchen Object Parent
-03:37:47 Player Pick up, C# Interfaces
+03:11:18 Kitchen Object, Scriptable Objects             lundi 25
+03:24:46 Kitchen Object Parent                          Jeudi 28 (pb d'ecouteurs)
+03:37:47 Player Pick up, C# Interfaces                  
 03:49:23 Container Counter
 04:13:02 Player Pick up, Drop Objects
+
+
+
