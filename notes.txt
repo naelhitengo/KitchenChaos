@@ -39,5 +39,10 @@ on reprends lundi 18
 03:49:23 Container Counter
 04:13:02 Player Pick up, Drop Objects
 
+j'ai pas mal lutté sur Container Counter, je n'avais pas compris que le "selected" devait rester actif, 
+et c'etait les sous machins qui sont desactivé puis affichés et cachés.
+
+
+
 
 

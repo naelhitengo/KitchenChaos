@@ -23,7 +23,7 @@ public class Player : MonoBehaviour, IKitchenObjectParent
 
     private bool isWalking;
     private Vector3 lastInteractDir;
-    private BaseCounter selectedCounter;
+    [SerializeField] private BaseCounter selectedCounter;
     private KitchenObject kitchenObject;
 
     private void Awake()
@@ -73,7 +73,6 @@ public class Player : MonoBehaviour, IKitchenObjectParent
         {
             if (raycastHit.transform.TryGetComponent(out BaseCounter baseCounter))
             {
-                // HasClearCounter
                 if (baseCounter != selectedCounter)
                 {
                     SetSelectedCounter(baseCounter);
