@@ -37,14 +37,34 @@ on reprends lundi 18
 04:13:02 Player Pick up, Drop Objects                   mardi 2
 04:23:37 Cutting Counter, Interact Alternate
 
-
-
-
 j'ai pas mal lutté sur Container Counter, je n'avais pas compris que le "selected" devait rester actif, 
 et c'etait les sous machins qui sont desactivé puis affichés et cachés.
 
-bon pour le Player Pick up, Drop Objects, je coupe ce soir
- mais il faudrait idéalement adapter le positionnement des comptoirs.
+Bon pour le Player Pick up, Drop Objects, je coupe ce soir.
+Mais il faudrait idéalement adapter le positionnement des comptoirs.
+04:13:02 Player Pick up, Drop Objects  commits 1&2
+sinon on est bon pour la suite et le cutting counter.
+
+
+04:13:02 Player Pick up, Drop Objects
+04:23:37 Cutting Counter, Interact Alternate
+04:37:10 Cutting Recipe SO
+04:46:33 Cutting Progress, World Canvas
+05:05:51 Look At Camera
+05:14:24 Trash Counter
+05:19:33 Stove Counter, State Machine
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
