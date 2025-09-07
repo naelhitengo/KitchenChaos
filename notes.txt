@@ -50,7 +50,7 @@ sinon on est bon pour la suite et le cutting counter.
 04:23:37 Cutting Counter, Interact Alternate    Vendredi 6
 04:37:10 Cutting Recipe SO                      Samedi 7
 04:46:33 Cutting Progress, World Canvas         Dimanche 8
-05:05:51 Look At Camera
+05:05:51 Look At Camera                         
 05:14:24 Trash Counter
 05:19:33 Stove Counter, State Machine
 
@@ -61,7 +61,9 @@ vendredi 6
 C'est fini pour le chapitre, il reste pas mal, j'aimerai bien atteindre la moitié pour ce weekend.
 
 
-
+dimanche 7. 
+on a passé la moitié. c'est symbolique et ca fait plaisir.
+prochain chapitre, "look at camera"
 
 
 
