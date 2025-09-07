@@ -50,8 +50,8 @@ sinon on est bon pour la suite et le cutting counter.
 04:23:37 Cutting Counter, Interact Alternate    Vendredi 6
 04:37:10 Cutting Recipe SO                      Samedi 7
 04:46:33 Cutting Progress, World Canvas         Dimanche 8
-05:05:51 Look At Camera                         
-05:14:24 Trash Counter
+05:05:51 Look At Camera                         Dimanche 8
+05:14:24 Trash Counter  
 05:19:33 Stove Counter, State Machine
 
 
@@ -65,8 +65,18 @@ dimanche 7.
 on a passé la moitié. c'est symbolique et ca fait plaisir.
 prochain chapitre, "look at camera"
 
+j'ai noté un petit bug, si on retire un ingredient pendant sa decoupe, ca empeche de reposer un nouvel ingredient.
+On investigera plus tard, car il est possible que cela soit traité dans un prochain chapitre.
 
 
+05:14:24 Trash Counter                          Dimanche 8
+05:19:33 Stove Counter, State Machine
+05:56:04 Plates Counter
+06:08:05 Plate Pick up Objects
 
+
+trash counter ok, on fait une pause avant d'attaquer le four et le state machine.
+surtout que le chapitre fait 35 minutes :)
+puis là il y a eu un refactoring dans les classes aussi. gentil mais on reorganise un peu.
 
 
