@@ -80,3 +80,10 @@ surtout que le chapitre fait 35 minutes :)
 puis là il y a eu un refactoring dans les classes aussi. gentil mais on reorganise un peu.
 
 
+mardi 09
+stovecoutner
+y a un petit alignement qui ne va pas entre le steak et la poele du comptoir. a suivre
+pause au test de 5:26:50.
+on verra ensuite.
+petitcommit et dodo.
+
