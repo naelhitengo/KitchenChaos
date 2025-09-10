@@ -87,3 +87,23 @@ pause au test de 5:26:50.
 on verra ensuite.
 petitcommit et dodo.
 
+bon en gros , il n'aime pas les coroutines, et leur pattern.
+donc il a montré l'exemple mais on ne garde pas.
+convoluted (adjective)
+1.  (especially of an argument, story, or sentence) extremely complex and difficult to follow.
+2. technical intricately folded, twisted, or coiled.
+
+
+private void Start()
+{
+    StartCoroutine(HandleFryTimer());
+}
+
+private IEnumerator HandleFryTimer()
+{
+    yield return new WaitForSeconds(1f);
+}
+
+
+pause a 5:39:35.
+un commit et dodo :)
