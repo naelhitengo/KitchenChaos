@@ -107,3 +107,12 @@ private IEnumerator HandleFryTimer()
 
 pause a 5:39:35.
 un commit et dodo :)
+
+le particle system a 5:41:xx
+il faut activer dans l'asset pour afficher le menu d'animation.
+on peut creer un asset via click droit dans la hierarchie, effect puis particle system.
+plein d'options dans le menu, très sympa.
+
+
+stove counter fini, mais il y a un truc a revoir sur l'affichage de la barre de progression.
+on verra plus tard. commitons.
