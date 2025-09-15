@@ -116,3 +116,29 @@ plein d'options dans le menu, très sympa.
 
 stove counter fini, mais il y a un truc a revoir sur l'affichage de la barre de progression.
 on verra plus tard. commitons.
+bon on n'avait "juste" pas mis la hauteur de la barre a 2.5 sur Z, donc on ne la voyait pas mais elle etait "dans" le comptoir.
+45 minutes de la video quand même.
+
+05:19:33 Stove Counter, State Machine
+
+chapitre suivant Plates Counter et suivants, objectif de la semaine du 15/09
+05:56:04 Plates Counter
+06:08:05 Plate Pick up Objects
+06:22:10 Plate Complete Visual
+06:30:19 Plate World UI Icons
+
+06:44:24 Delivery Counter, Shader Graph
+07:05:45 Delivery Manager
+07:21:20 Delivery Manager UI
+07:39:24 Music
+07:43:22 Sound Effects
+08:06:36 Game Start
+08:21:20 Game Over
+08:30:13 Main Menu, Loading
+08:48:43 Pause, Clear Statics
+09:07:18 Options, Audio Levels
+09:22:20 Options, Key Rebinding
+09:45:29 Controller Input, Menu Navigation
+10:00:36 Polish
+10:44:01 Final Game
+10:47:30 CONGRATULATIONS!
