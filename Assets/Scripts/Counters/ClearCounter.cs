@@ -1,6 +1,7 @@
+using System.ComponentModel;
 using UnityEngine;
 
-public class ClearCounter : BaseCounter, IKitchenObjectParent
+public class ClearCounter : BaseCounter
 {
     [SerializeField] private KitchenObjectSO kitchenObjectSO;
 
@@ -25,6 +26,18 @@ public class ClearCounter : BaseCounter, IKitchenObjectParent
             if (player.HasKitchenObject())
             {
                 // Player is carrying something.
+                Debug.Log("Player is carrying something.");
+                if (player.GetKitchenObject() is PlateKitchenObject)
+                {
+                    // Player is holding a Plate.
+                    Debug.Log("Player is holding a Plate.");
+                    PlateKitchenObject plateKitchenObject = player.GetKitchenObject() as PlateKitchenObject;
+                    if (plateKitchenObject.TryAddIngredient(GetKitchenObject().GetKitchenObjectSO()))
+                    {
+                        GetKitchenObject().DestroySelf();
+                        Debug.Log("GetKitchenObject().DestroySelf();");
+                    }
+                }
             }
             else
             {
