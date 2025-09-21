@@ -156,3 +156,35 @@ aller, on tente le dernier chapitre sur l'assiette.
 c'est censer faire 8 minutes et juste travailler le visuel.
 
 ce fut rapide :)
+
+
+next:
+
+06:30:19 Plate World UI Icons
+
+06:44:24 Delivery Counter, Shader Graph
+07:05:45 Delivery Manager
+07:21:20 Delivery Manager UI
+
+
+    private void UpdateVisual()
+    {
+        foreach (Transform child in transform)
+        {
+            if (child == iconTemplate) continue;
+            Destroy(child.gameObject);
+        }
+        // j'aurais peut etre differement, sans le "continue" mais on va coller a son code, car il a peut etre une vision pour après
+        
+        foreach (KitchenObjectSO kitchenObjectSO in plateKitchenObject.GetKitchenObjectSOList())
+        {
+            Transform iconTransform = Instantiate(iconTemplate, transform);
+            iconTransform.GetComponent<PlateIconSingleUI>().SetKitchenObjectSO(kitchenObjectSO);
+        }
+    }
+
+
+    06:30:19 Plate World UI Icons
+    ok leçon terminée. le Delivery comme prochain gros chapitre.
+
+    
