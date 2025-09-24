@@ -195,3 +195,33 @@ delivery counter et shaderGraph
 07:21:20 Delivery Manager UI
 
 c'est parti pour 20 minutes
+
+20250922
+
+NaelH@TomNook MINGW64 ~/Workspaces/Unity/KitchenChaos (master)
+$ git log --oneline
+d4abc82 (HEAD -> master, origin/master) Delivery Counter, Shader Graph
+54dcf2f Plate World UI Icons
+4791c9f Plate Complete Visual
+286a083 Plate Pick up Objects 3 (done)
+
+ok on continue.
+DeliveryManager
+
+[CreateAssetMenu()]
+public class RecipeSO : ScriptableObject
+
+
+//[CreateAssetMenu()]
+// Dans le tuto, on a besoin que d'une liste donc on commente le createAssetMenu.
+// Aussi comme il n'y en a qu'une , on le laise dans le dossier des RecipeSO
+// et prefixé de l'underscore pour le faire apparaitre en haut de la liste.
+public class RecipeListSO : ScriptableObject
+{
+    public List<RecipeSO> recipeSOList;
+
+}
+
+a relire a tete reposée
+
+    public void DeliverRecipe(PlateKitchenObject plateKitchenObject)
