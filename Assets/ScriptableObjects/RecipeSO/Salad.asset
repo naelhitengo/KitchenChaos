@@ -15,4 +15,4 @@ MonoBehaviour:
   kitchenObjectSOList:
   - {fileID: 11400000, guid: 782a85481b429374eae81e0831e3f340, type: 2}
   - {fileID: 11400000, guid: b8644c5c87821374aab16e4d2596fe78, type: 2}
-  recipeName: MEGABurger
+  recipeName: Salad

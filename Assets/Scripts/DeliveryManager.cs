@@ -41,8 +41,8 @@ public class DeliveryManager : MonoBehaviour
     {
         for (int i = 0; i < waitingRecipeSOList.Count; i++)
         {
-
             RecipeSO waitingRecipeSO = waitingRecipeSOList[i];
+
             if (waitingRecipeSO.kitchenObjectSOList.Count == plateKitchenObject.GetKitchenObjectSOList().Count)
             {
                 // Has the same number of ingredients
@@ -77,10 +77,10 @@ public class DeliveryManager : MonoBehaviour
                     return;
                 }
             }
-            // No Matches found;
-            // Player did not deliver a correct recipe.
-            Debug.Log("Player did not deliver a correct recipe.");
         }
+        // No Matches found;
+        // Player did not deliver a correct recipe.
+        Debug.Log("Player did not deliver a correct recipe.");
     }
 }
 

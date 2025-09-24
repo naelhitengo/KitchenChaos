@@ -225,3 +225,14 @@ public class RecipeListSO : ScriptableObject
 a relire a tete reposée
 
     public void DeliverRecipe(PlateKitchenObject plateKitchenObject)
+
+    
+NaelH@TomNook MINGW64 ~/Workspaces/Unity/KitchenChaos (master)
+$ git commit -m "Delivery Manager 1, verifier tout ok"
+
+le log semble se repeter 5 fois, verifier la methode:
+
+Player did not deliver a correct recipe. 
+
+//fixed c'etait dans la premiere boucle, pas a la fin "fin" de la methode.
+
