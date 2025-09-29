@@ -236,3 +236,25 @@ Player did not deliver a correct recipe.
 
 //fixed c'etait dans la premiere boucle, pas a la fin "fin" de la methode.
 
+NaelH@TomNook MINGW64 ~/Workspaces/Unity/KitchenChaos (master)
+$ git log --oneline
+75a902e (HEAD -> master, origin/master) Delivery Manager, fixed
+...
+
+07:05:45 Delivery Manager
+07:21:20 Delivery Manager UI
+07:39:24 Music
+07:43:22 Sound Effects
+08:06:36 Game Start
+08:21:20 Game Over
+
+20250929
+Delivery Manager UI
+ca promet d'etre fun...
+'F' pour avoir le focus sur un (game)object, comme le canvas ou le player.
+
+ok, ce fut fun. on a passé les deux tiers mais ca fait deja presque 2 mois qu'on est dessus. 
+mais on progresse :)
+puis quand on l'aura terminé. on reflechira soit la video pour le multi, soit son cours sur gamedev.tv
+
+
