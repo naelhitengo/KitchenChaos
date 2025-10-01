@@ -1,7 +1,6 @@
 using UnityEngine;
 
-public class ContainerCounterVisual : MonoBehaviour
-{
+public class ContainerCounterVisual : MonoBehaviour {
 
     private const string OPEN_CLOSE = "OpenClose";
 
@@ -9,20 +8,17 @@ public class ContainerCounterVisual : MonoBehaviour
 
     private Animator animator;
 
-    public void Awake()
-    {
+    public void Awake() {
         animator = GetComponent<Animator>();
     }
 
-    private void Start()
-    {
+    private void Start() {
 
         containerCounter.OnPlayerGrabbedObject += ContainerCounter_OnPpayerGrabbedObject;
 
     }
 
-    private void ContainerCounter_OnPpayerGrabbedObject(object sender, System.EventArgs e)
-    {
+    private void ContainerCounter_OnPpayerGrabbedObject(object sender, System.EventArgs e) {
         animator.SetTrigger(OPEN_CLOSE);
     }
 }

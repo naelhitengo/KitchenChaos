@@ -1,10 +1,8 @@
 using System.Diagnostics;
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
-{
-    private enum Mode
-    {
+public class NewMonoBehaviourScript : MonoBehaviour {
+    private enum Mode {
         LookAt,
         LookAtInverted,
         CameraForward,
@@ -13,10 +11,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     [SerializeField] private Mode mode;
 
-    private void LateUpdate()
-    {
-        switch (mode)
-        {
+    private void LateUpdate() {
+        switch (mode) {
             case Mode.LookAt:
                 transform.LookAt(Camera.main.transform);
                 break;

@@ -1,8 +1,7 @@
 using System;
 using UnityEngine;
 
-public class CuttingCounterVisual : MonoBehaviour
-{
+public class CuttingCounterVisual : MonoBehaviour {
 
     private const string CUT = "Cut";
 
@@ -10,18 +9,15 @@ public class CuttingCounterVisual : MonoBehaviour
 
     private Animator animator;
 
-    public void Awake()
-    {
+    public void Awake() {
         animator = GetComponent<Animator>();
     }
 
-    private void Start()
-    {
+    private void Start() {
         cuttingCounter.OnCut += CuttingCounter_OnCut;
     }
 
-    private void CuttingCounter_OnCut(object sender, EventArgs e)
-    {
+    private void CuttingCounter_OnCut(object sender, EventArgs e) {
         animator.SetTrigger(CUT);
     }
 

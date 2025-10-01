@@ -257,4 +257,8 @@ ok, ce fut fun. on a passé les deux tiers mais ca fait deja presque 2 mois qu'o
 mais on progresse :)
 puis quand on l'aura terminé. on reflechira soit la video pour le multi, soit son cours sur gamedev.tv
 
+20251001
+bon on refait un formatage du projet ce soir.
+on verra demain pour la musique etc.
+
 

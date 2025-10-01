@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Net.NetworkInformation;
 using UnityEngine;
 
-public class DeliveryManager : MonoBehaviour
-{
+public class DeliveryManager : MonoBehaviour {
 
     public event EventHandler OnRecipeSpawned;
     public event EventHandler OnRecipeCompleted;
@@ -18,22 +17,18 @@ public class DeliveryManager : MonoBehaviour
     private float spawnRecipeTimerMax = 4f;
     private int waitingRecipesMax = 4;
 
-    private void Awake()
-    {
+    private void Awake() {
         Instance = this;
 
         waitingRecipeSOList = new List<RecipeSO>();
     }
 
-    private void Update()
-    {
+    private void Update() {
         spawnRecipeTimer -= Time.deltaTime;
-        if (spawnRecipeTimer <= 0)
-        {
+        if (spawnRecipeTimer <= 0) {
             spawnRecipeTimer = spawnRecipeTimerMax;
 
-            if (waitingRecipeSOList.Count < waitingRecipesMax)
-            {
+            if (waitingRecipeSOList.Count < waitingRecipesMax) {
                 RecipeSO waitingRecipeSo = recipeListSO.recipeSOList[UnityEngine.Random.Range(0, recipeListSO.recipeSOList.Count)];
                 // Debug.Log(waitingRecipeSo);
 
@@ -44,40 +39,32 @@ public class DeliveryManager : MonoBehaviour
         }
     }
 
-    public void DeliverRecipe(PlateKitchenObject plateKitchenObject)
-    {
-        for (int i = 0; i < waitingRecipeSOList.Count; i++)
-        {
+    public void DeliverRecipe(PlateKitchenObject plateKitchenObject) {
+        for (int i = 0; i < waitingRecipeSOList.Count; i++) {
             RecipeSO waitingRecipeSO = waitingRecipeSOList[i];
 
-            if (waitingRecipeSO.kitchenObjectSOList.Count == plateKitchenObject.GetKitchenObjectSOList().Count)
-            {
+            if (waitingRecipeSO.kitchenObjectSOList.Count == plateKitchenObject.GetKitchenObjectSOList().Count) {
                 // Has the same number of ingredients
                 bool plateContentsMatchesRecipe = true;
-                foreach (KitchenObjectSO recipeKitchenObjectSO in waitingRecipeSO.kitchenObjectSOList)
-                {
+                foreach (KitchenObjectSO recipeKitchenObjectSO in waitingRecipeSO.kitchenObjectSOList) {
                     // Cycling through all ingredients in the Recipe
                     bool ingredientFound = false;
-                    foreach (KitchenObjectSO plateKitchenObjectSO in plateKitchenObject.GetKitchenObjectSOList())
-                    {
+                    foreach (KitchenObjectSO plateKitchenObjectSO in plateKitchenObject.GetKitchenObjectSOList()) {
                         // Cycling through all ingredients in the plate
-                        if (plateKitchenObjectSO == recipeKitchenObjectSO)
-                        {
+                        if (plateKitchenObjectSO == recipeKitchenObjectSO) {
                             //Ingredient matches !
                             ingredientFound = true;
                             break;
                         }
                     }
                     // 
-                    if (!ingredientFound)
-                    {
+                    if (!ingredientFound) {
                         //thes RecipeIngredientwas not found on the Plate
                         plateContentsMatchesRecipe = false;
                     }
                 }
 
-                if (plateContentsMatchesRecipe)
-                {
+                if (plateContentsMatchesRecipe) {
                     // Player delivered the correct recipe!
                     // Debug.Log("Player delivered the correct recipe!");
 
@@ -94,8 +81,7 @@ public class DeliveryManager : MonoBehaviour
     }
 
 
-    public List<RecipeSO> GetWaitingRecipeSOList()
-    {
+    public List<RecipeSO> GetWaitingRecipeSOList() {
         return waitingRecipeSOList;
     }
 }
