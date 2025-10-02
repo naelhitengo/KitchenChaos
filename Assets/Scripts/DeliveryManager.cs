@@ -6,6 +6,7 @@ using UnityEngine;
 public class DeliveryManager : MonoBehaviour {
 
     public event EventHandler OnRecipeSpawned;
+
     public event EventHandler OnRecipeCompleted;
 
     public static DeliveryManager Instance { get; private set; }
@@ -80,9 +81,9 @@ public class DeliveryManager : MonoBehaviour {
         // Debug.Log("Player did not deliver a correct recipe.");
     }
 
-
     public List<RecipeSO> GetWaitingRecipeSOList() {
         return waitingRecipeSOList;
     }
+
 }
 

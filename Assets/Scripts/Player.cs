@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class Player : MonoBehaviour, IKitchenObjectParent {
+
     public static Player Instance { get; private set; }
 
     public event EventHandler<OnSelectedCounterChangedEventArgs> OnSelectedCounterChanged;

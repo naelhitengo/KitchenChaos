@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlateCompleteVisual : MonoBehaviour {
+
     [Serializable]
     public struct KitchenObjectSO_GameObject {
         public KitchenObjectSO kitchenObjectSO;
